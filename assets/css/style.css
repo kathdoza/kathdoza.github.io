@@ -1,0 +1,49 @@
+/* for all pages */
+body {
+    font-family: 'Istok Web', sans-serif;
+    overflow: auto;
+    background-color: #fff1d3;
+}
+
+.navbar {
+    padding: 25px;
+    background-color: #631109;
+}
+
+.navbar-brand{ 
+    margin-left: 125px;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(164, 156, 156);
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #434141;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* about me page */
+#headshot {
+    width: 300px;
+    float: left;
+}
+/* contact me page */
+.icons{
+    font-size: 30px;
+    text-align: center;
+}
