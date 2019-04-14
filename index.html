@@ -2,77 +2,227 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Katherine Cardoza | Portfolio </title>
+    <title>Katherine Cardoza | Full Stack Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Istok+Web|Montserrat|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/util.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 
 <body>
-    <nav id="navbarPort" class="navbar navbar-dark">
-        <a class="navbar-brand" href="https://kathdoza.github.io/">KATHERINE CARDOZA</a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">about me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="assets/images/Katherine Cardoza Resume 12_26_18 copy.pdf">resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">contact</a>
-            </li>
+    <header>
+        <nav id="slide-out" class="sidenav sidenav-fixed">
+            <ul class="section table-of-contents">
+                <li class="logo">
+                    <div class="name light">KATHERINE CARDOZA</div>
+                    <div class="title light">Full Stack Developer</div>
+                </li>
+                <li class="bold"><a href="#introduction" class="waves-effect waves-teal">About Me</a></li>
+                <li class="bold"><a href="#projects" class="waves-effect waves-teal">Projects</a></li>
+                <li class="bold"><a href="#contact" class="waves-effect waves-teal">Contact</a></li>
+                <li class="bold"><a href="#" class="waves-effect waves-teal">Resume</a></li>
+            </ul>
+        </nav>
+        <nav class="hide-on-large-only trigger z-depth-1"><a href="#" data-target="slide-out" class="sidenav-trigger"><i
+                    class="fas fa-bars"></i></a>
+            <div class="name-title"><a id="name" href="#introduction" class="name">Katherine Cardoza </a><span
+                    class="title light">Full Stack Developer</span></div>
+        </nav>
+        <!-- <nav class="hide-on-large-only trigger z-depth-1">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <div class="name-title"><a id="name" aria-label="Navigate to the beginning of the page" href="#main"
+                    class="teal-text">Katherine Cardoza</a><span class="brown-text light">Full Stack Developer</span>
             </div>
-            </li>
-        </ul>
-    </nav>
-    <div data-spy="scroll" data-target="#navbarPort" data-offset="0">
-        <div class="container">
-            <p id="page-title">ABOUT ME</p>
-            <div class="row">
-                <div class="col-md-4"> <img src="assets/images/headshot.jpg" id="headshot" class="rounded"></div>
-                <div class="col-md-8">
-                    <p> Hi! My name is Kathy. I was born and raised in Los Angeles, CA. In 2016, I got my bachelor’s
-                        degree in Psychology with a minor in Korean Language from UCLA and spent 3 years post-grad
-                        working as a legal assistant at a employment litigation law firm in Brentwood. I always had an
-                        interest and passion for web development, and worked many years on individual projects teaching
-                        myself the skills I needed to change career paths. I eventually decided to take a leap of faith
-                        an enroll into a coding bootcamp program as a part-time student. Working fulltime and going to
-                        school at night and on the weekends was tough, but I knew it would all work out in the end. I’m
-                        always looking to sharpen my skills and take on new projects. </p>
-                    <br>
-                    <p> On my free time, I like to watch movies and hang out friends and family. Currently also trying
-                        to get back into reading!</p>
-                        <br>
+        </nav> -->
+        <!-- <nav class="hide-on-large-only">
+            <ul id="nav-mobile slide-out" class="side-nav">
+                <li class="bold"><a href="#introduction" class="waves-effect waves-teal">About Me</a></li>
+                <li class="bold"><a href="#projects" class="waves-effect waves-teal">Projects</a></li>
+                <li class="bold"><a href="#contact" class="waves-effect waves-teal">Contact</a></li>
+                <li class="bold"><a href="#" class="waves-effect waves-teal">Resume</a></li>
+            </ul>
+        </nav> -->
+        <!-- <div class="container"><a href="#" data-target="nav-mobile"
+                class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a></div> -->
+
+    </header>
+    <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+    <main>
+        <div class="row">
+            <div class="col s12 m8 offset-m2 main-content">
+                <div id="introduction" class="section scrollspy">
+                    <h1>about me</h1>
+                    <div class="col s12 m4"><img src="assets/images/headshot.jpg" id="headshot"></div>
+                    <div class="col s12 m8 aboutme">
+                        <p>Hi! My name is Kathy. I was born and raised in Los Angeles, CA. In 2016, I got my
+                            bachelor’s
+                            degree in Psychology with a minor in Korean Language from UCLA and spent 3 years
+                            post-grad
+                            working as a legal assistant at a employment litigation law firm in Brentwood. I always
+                            had
+                            an interest and passion for web development, and worked many years on individual
+                            projects
+                            teaching myself the skills I needed to change career paths. I eventually decided to take
+                            a
+                            leap of faith an enroll into a coding bootcamp program as a part-time student. Working
+                            fulltime and going to school at night and on the weekends was tough, but I knew it would
+                            all
+                            work out in the end. I’m always looking to sharpen my skills and take on new projects.
+                        </p><br>
+                        <p>
+                            On my free time, I like to watch movies and hang out friends and family. Currently also
+                            trying to get back into reading! </p>
+                    </div>
+                </div>
+                <div id="projects" class="section scrollspy">
+                    <h1>projects</h1>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/crystals.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Crystal Collectors Game<i
+                                            class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://kathdoza.github.io/unit-4-game/">Try it Out!</a> | <a
+                                            href="https://github.com/kathdoza/unit-4-game">Git</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Crystal Collectors Game<i
+                                            class="material-icons right">close</i></span>
+                                    <p>An interactive game where each crystal is given a numerical amount and the player
+                                        must collect as many crystals as the computer has asked for. This game uses:
+                                        <li>Javascript</li>
+                                        <li>Jquery</li>
+                                        <li>HTML/CSS</li>
+                                        <li>Bootstrap</li>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/rupaul.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">Rupaul's Trivia Game<i
+                                            class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://kathdoza.github.io/TriviaGame/">Try it Out!</a> | <a
+                                            href="https://github.com/kathdoza/TriviaGame/">Git</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">Rupaul's Trivia Game<i
+                                            class="material-icons right">close</i></span>
+                                    <p>A trivia game based on the reality show Rupaul's Drag Race. This game uses:
+                                        <li> Giphy API</li>
+                                        <li>Javascript</li>
+                                        <li>Jquery</li>
+                                        <li>HTML/CSS</li>
+                                        <li>Bootstrap</li>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/tvshow.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">TV Show Gifs<i
+                                            class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://kathdoza.github.io/giphyAPI/">Try it Out!</a> | <a
+                                            href="https://github.com/kathdoza/giphyAPI/">Git</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">TV Show Gifs<i
+                                            class="material-icons right">close</i></span>
+                                    <p> A TV Show based Gif generator. Type in any tv show to add a button. Press the
+                                        button and the page will populate different gifs from the Giphy API. Click on
+                                        the gifs to make them move. Click once more to make them stop. This app uses:
+                                        <li> Giphy API</li>
+                                        <li>Javascript</li>
+                                        <li>Jquery</li>
+                                        <li>HTML/CSS</li>
+                                        <li>Bootstrap</li>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="assets/images/inorout.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">In or Out<i
+                                            class="material-icons right">more_vert</i></span>
+                                    <p><a href="https://kathdoza.github.io/project_1/">Try it Out!</a> | <a
+                                            href="https://github.com/kathdoza/project_1/">Git</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">In or Out<i
+                                            class="material-icons right">close</i></span>
+                                    <p class="description">A nutrition app for deciding how to eat!
+                                        This application uses JS/jQuery and multiple API interactions to:
+                                        <li>query a recipe based on a given ingreditent</li>
+                                        <li>display nutritional values for that recipe, based on its ingredients</li>
+                                        <li>query a similar food product, available for purchase at a nearby restaurant
+                                        </li>
+                                        <li>display nutritional values for that product for comparison</li>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact" class="section scrollspy">
+                    <div>
+                        <h1>contact me</h1>
+                        <div class="icons">
+                            <a href="https://www.instagram.com/kathdoza/" target="_blank"><i
+                                    class="fab fa-instagram "></i> </a>
+                            <a href="https://github.com/kathdoza" target="_blank"> <i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/kathdoza" target="_blank"> <i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/katherine-cardoza-888363162/" target="_blank"> <i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="mailto:kathrcaroza@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-    </div>
-    <div class="footer">
-        <p>© Katherine Cardoza 2019</p>
-    </div>
+    </main>
 </body>
+<script>
+
+
+    $(document).ready(function () {
+        $('.pushpin').pushpin();
+        $('.scrollspy').scrollSpy();
+        $('.sidenav').sidenav();
+        $(".button-collapse").sidenav({
+            menuWidth: 190, // Default is 240
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        }
+        );
+    });
+</script>
 
 </html>

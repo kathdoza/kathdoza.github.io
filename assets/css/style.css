@@ -1,49 +1,80 @@
-/* for all pages */
-body {
-    font-family: 'Istok Web', sans-serif;
-    overflow: auto;
-    background-color: #fff1d3;
+/* nav bar  */
+nav {
+    background-color: #fff;
+    color: black;
+}
+.sidenav-trigger{
+    color: black;
+}
+.sidenav{
+    width: 250px;
+}
+/* main content */
+main{
+    padding-left: 200px;
+    /* left: 10px; */
+}
+h1{
+    font-size: 3.0rem;
+}
+.main-content {
+    clear:both;
 }
 
-.navbar {
-    padding: 25px;
-    background-color: #631109;
+.logo{
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
 }
 
-.navbar-brand{ 
-    margin-left: 125px;
-}
-.nav-link {
-    color: white;
-}
-
-.nav-link:hover {
-    color: rgb(164, 156, 156);
-}
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #434141;
-    color: white;
+.name{
+    color: #ff5959;
     text-align: center;
-    padding: 15px;
 }
-
-.container {
-    margin-top: 20px;
-    font-family: 'Raleway', sans-serif;
-    
+.title {
+    text-align: center;
 }
-
-/* about me page */
+/* about me */
 #headshot {
-    width: 300px;
+    width: 200px;
     float: left;
+    border-radius: 75%;
+    padding-right: 10px;
 }
+.aboutme{
+    float:right;
+    padding-left: 10px;
+    /* padding:10px; */
+}
+
 /* contact me page */
-.icons{
+.icons {
     font-size: 30px;
     text-align: center;
 }
+.icons a{
+    color: #ff5959;
+}
+
+/* projects */
+.card .card-title{
+    font-size: 18px;
+}
+
+.description .li {
+    font-size: 12px;
+}
+
+/* media queries go here */
+@media(max-width: 992px){
+main {
+    padding-left: 0px;
+    padding-top: 64px;
+}};
+
+@media(max-width:1024px) {
+    .main-content{
+        width: 100%;
+    }
+};
